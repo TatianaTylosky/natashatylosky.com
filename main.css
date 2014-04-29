@@ -10,7 +10,16 @@ table img {
 	position: relative;
 	z-index: 1;
 	padding: 100px;
+	left: 0%;
 }
+
+table img:hover {
+	z-index: 2;
+	width: 200%;
+	position: relative;
+	left: -50%;
+}
+
 
 header img {
 	width: 3000px;
@@ -18,19 +27,13 @@ header img {
 	padding: 0px;
 }
 
-table img:hover {
-	z-index: 2;
-	width: 200%;
-	position: relative;
-}
-
-
 td {
 	vertical-align: top;
 	padding-right: 20px;
 	padding-left: 20px;
 	padding-top: 40px;
 	padding-bottom: 40px;
+	width: 200px;
 }
 
 
